@@ -7,6 +7,7 @@ else
 	generator = HtmlGenerator.new
 	if action == "index" 
 		generator.index
+
 	elsif action == "show" 
 		generator.show
 	else
