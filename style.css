@@ -1,0 +1,101 @@
+@import url("reset.css");
+
+
+
+body {
+padding:0;
+margin:0;
+
+background-image: url(bottle_and_glass.jpg);
+background-repeat:repeat;
+}
+
+#container_green {
+	width:90%;
+	background-color:#003B0F;
+	margin:auto;
+}
+
+#container_content {
+	width:960px;
+	height:2000px;
+	margin:auto;
+/*	padding:10px;*/
+	/*background-color: white;*/
+	background-color: #F9ECB7;
+	border:40px solid brown;
+	/*border:10px solid black;*/
+	/*border-radius: 10px;*/
+	color:#00290a;
+}
+
+#banner {
+	/*height:200px;*/
+/*	width:90%;*/
+	background-color:#C89036;
+	/* */
+	font-size:1.8em;
+	text-align: center;
+	
+
+	
+/*	border-radius: 10px;*/
+/*	padding:10px;*/
+
+
+}
+
+#prices {
+	background-color:#003B0F;
+	width:80%; 
+	text-align: center;
+	padding:10px;
+	/*margin:auto;*/
+	color:#F9ECB7;
+	margin:auto;
+	height:80px;
+	border-radius: :5px;
+}
+
+#prices li {
+	width:40%;
+	list-style-type: none;
+		display: inline;
+		font-size: 1.2em;
+}
+
+#prices strong {
+	font-size: 1.2em;
+	float:left;
+}
+
+#phone {
+	margin:auto;
+}
+
+.sale_section {
+	width:375px;
+	background-color:white;
+	border: 1px solid black;
+	padding:5px;
+	display: inline-block; 
+	margin-bottom:20px;
+	margin-left: 50px;
+
+
+}
+
+ .description {
+	display: inline-block; 
+	margin: auto;
+}
+
+.beer_pic {
+	float:right;
+}
+
+.beer_name {
+	float:left;
+}
+
+

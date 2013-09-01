@@ -1,4 +1,4 @@
-require_relative 'html_generator'
+require 'html_generator'
 
 if ARGV.empty?
 	puts "Usage: ruby router.rb [action]"
