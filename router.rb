@@ -8,8 +8,9 @@ else
 	if action == "index" 
 		generator.index
 
-	elsif action == "show" 
-		generator.show
+	elsif action == "show"
+		product_id = ARGV[1]
+		generator.show(product_id)
 	else
 		puts "Unknown action #{action}. Use index or show."
 	end 

@@ -18,7 +18,7 @@ background-repeat:repeat;
 
 #container_content {
 	width:960px;
-	height:2000px;
+	/*height:2000px;*/
 	margin:auto;
 /*	padding:10px;*/
 	/*background-color: white;*/
@@ -74,13 +74,14 @@ background-repeat:repeat;
 }
 
 .sale_section {
-	width:375px;
+	width:400px;
 	background-color:white;
-	border: 1px solid black;
+	border: 4px solid #003B0F;
 	padding:5px;
 	display: inline-block; 
 	margin-bottom:20px;
-	margin-left: 50px;
+	margin-left: 40px;
+	border-radius: 10px;
 
 
 }
@@ -92,6 +93,7 @@ background-repeat:repeat;
 
 .beer_pic {
 	float:right;
+	margin-left: 10px;
 }
 
 .beer_name {
